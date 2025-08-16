@@ -34,7 +34,7 @@ function getAgentName(agentId) {
 
 function updateFreshdeskTickets_SEindia() {
   const FRESHDESK_DOMAIN = "graas-support.freshdesk.com";
-  const API_KEY = "Gsiha9FK7J8YZBxJzR";
+  const API_KEY = "freshdesk api";
   const START_DATE = "2025-01-01T00:00:00Z";
   const encodedKey = Utilities.base64Encode(API_KEY + ":x");
 
